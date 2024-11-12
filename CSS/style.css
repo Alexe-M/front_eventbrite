@@ -7,6 +7,7 @@ body {
   font-weight: 400;
   font-style: normal;
   height: 100vh;
+  background-color: #f6f8fb;
 }
 
 nav {
@@ -92,6 +93,7 @@ footer {
 
 .container {
   margin: 20px auto;
+  
 }
 
 .auth-container {
@@ -100,6 +102,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
+  
 }
 
 .auth-title {
@@ -107,6 +110,8 @@ footer {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  line-height: 0;
+
 }
 
 .auth-instructions {
@@ -114,6 +119,16 @@ footer {
  font-size: 20px;
  display: flex;
  justify-content: center;
+ 
+}
+
+.auth-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .auth-form-group {
@@ -121,7 +136,6 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
-
 }
 
 .icon-container {
@@ -164,20 +178,47 @@ footer {
 .auth-check {
   color: #7D7D7D;
   margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.auth-form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+.forgot-password {
+  color: #20c87a;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  color: #1d8957;
+}
+
+
+.primary-btn {
+  height: 50px;
+  margin-top: 15px;
+  background-color: #20c87a;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #1d8957;
+  box-shadow: 0px 10px 80px #1d89575b;
+}
+
+.primary-btn:active {
+  transform: scale(0.98);
+}
+
+.signup-link {
+  
+  text-align: center;
 }
 
 input:focus {
   outline: none;
-
 }
 
 

@@ -8,8 +8,8 @@
 </head>
 <body>
   <div class="container auth-container">
-    <h3 class="auth-title">Please Sign up</h3>
-    <p class="auth-instructions">Sign up to create your account.</p>
+    <h3 class="auth-title">Please Sign in</h3>
+    <p class="auth-instructions">Signin to manage your account.</p>
 
     <form class="auth-form">
       <!-- Champ email -->
@@ -34,16 +34,20 @@
       
       <!-- Case à cocher pour se souvenir de moi -->
       <div class="auth-check">
+        <div class="remember-me">
           <input type="checkbox" id="remember-me">
           <label for="remember-me">Remember me</label>
+        </div>
+        <a href="#" class="forgot-password">Forgot password?</a>
       </div>
 
-      <!-- Bouton d'envoi -->
 
-      
+      <!-- Bouton d'envoi -->
+      <button type="submit" class="primary-btn">Sign up</button>
 
 
       <!-- Liens pour mot de passe oublié et inscription -->
+       <p class="signup-link">Do not have an account? <a href="#" class="forgot-password">Signup</a></p>
 
 
 
